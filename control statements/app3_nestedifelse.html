@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let totalMarks = 382;
+        let perc = (totalMarks / 500) * 100;
+        let grade;
+        if (perc >= 80) {
+            grade = "A+";
+        } else if ((perc >= 70) && (perc < 80)) {
+            grade = "A";
+        } else if ((perc >= 60) && (perc < 70)) {
+            grade = "B+";
+        } else {
+            grade = "B";
+        }
+        console.log("The percentage of the student is: " + perc);
+        console.log("The grade of the student is: " + grade);
+    </script>
+</body>
+
+</html>

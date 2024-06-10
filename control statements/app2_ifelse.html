@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        //EvenOddChecker
+        let number = 10;
+        // Check if the remainder of dividing 'number' by 2 is equal to 0
+        if (number % 2 == 0) {
+            console.lo(number + " is even");
+        } else {
+            console.lo(number + " is odd");
+        }
+
+        var sub1 = 65, sub2 = 25, sub3 = 83; 
+        if (sub1 >= 35 && sub2 >= 35 && sub3 >= 35) {
+            console.log("Congratulations! You have passed.");
+        } else{
+            console.log('Failed');
+        }
+        //LeapYearCheck
+        var year = 2020; // Year to check
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            console.log(year, " is a leap year.");
+        } else{
+            console.log(year, " is a not leap year.");
+        }
+        //VotingEligibilityCheck
+        var age = 77; // Person's age
+        if (age >= 18) {
+            console.log("You are eligible to vote.");
+        } else{
+            console.log('Age is not eligiblfe for voting');
+        }
+    </script>
+</body>
+
+</html>

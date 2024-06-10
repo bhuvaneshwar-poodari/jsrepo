@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let lightColor = "Green"; // Traffic light color
+        let isPedestrianWaiting = false; // Is a pedestrian waiting?
+        if ("Green" == lightColor) {
+            if (isPedestrianWaiting) {
+                console.log("Slow down");
+            } else {
+                console.log("Drive");
+            }
+        } else if ("Yellow" == lightColor) {
+            console.log("Prepare to stop");
+        } else if ("Red" == lightColor) {
+            console.log("Stop");
+        }
+    </script>
+</body>
+
+</html>

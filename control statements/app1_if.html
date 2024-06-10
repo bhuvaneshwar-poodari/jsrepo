@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        //Pass eligibility
+        var sub1 = 65, sub2 = 25, sub3 = 83; 
+        if (sub1 >= 35 && sub2 >= 35 && sub3 >= 35) {
+            console.log("Congratulations! You have passed.");
+        }
+        //LeapYearCheck
+        var year = 2020; // Year to check
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            console.log(year, " is a leap year.");
+        }
+        //VotingEligibilityCheck
+        var age = 77; // Person's age
+        if (age >= 18) {
+            console.log("You are eligible to vote.");
+        }
+    </script>
+</body>
+
+</html>
